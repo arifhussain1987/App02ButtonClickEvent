@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:text="Onclick Method"
+        android:id="@+id/btn1"
+        android:onClick="process"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn2"
+        android:text="Onclick Method"
+        android:onClick="process"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn3"
+        android:text="Implement View.OnclickListner"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:layout_marginTop="16dp"
+    android:id="@+id/btn4"
+    android:text="Implement View.OnclickListner"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn5"
+        android:text="Defining a listener programatically on the OnCreate method"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn6"
+        android:text="Defining a listener programatically on the OnCreate method"/>
+
+</LinearLayout>
