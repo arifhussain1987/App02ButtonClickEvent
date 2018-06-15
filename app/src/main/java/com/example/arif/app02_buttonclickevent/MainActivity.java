@@ -43,10 +43,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId())
         {
             case R.id.btn1:
-                Toast.makeText(getApplicationContext(), "Onclick method called", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Onclick method called Button 1", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn2:
-                Toast.makeText(getApplicationContext(), "Onclick method called", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Onclick method called Button 2", Toast.LENGTH_SHORT).show();
                 break;
         }
     }
